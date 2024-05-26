@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHgSpbzw1K6SN9Kr1E8ck6HtKEXu1rGkXQh2GLtZGTBX0LvUT+XwZsS5aw8X2Yl8QdO/9/qg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-form h2 {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 1em;
+            font-size: 36px;
+            color: orangered;
+        }
+
+        .contact-form span {
+            color: white;
+        }
+
+        .contact-form form {
+            max-width: 50em;
+            margin: 2rem auto;
+            text-align: center;
+            padding: 2em;
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .contact-form form .input-box {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-form form .input-box input,
+        .contact-form form textarea {
+            width: 48%;
+            padding: 0.5em;
+            font-size: 18px;
+            color: black;
+            background: rgb(241, 241, 241);
+            border: none;
+            border-radius: 5px;
+            margin: 0.5rem 0;
+            resize: none;
+            outline: none;
+            box-sizing: border-box;
+            border: 1px solid gray;
+        }
+
+        .contact-form form .full-width {
+            width: 100%;
+        }
+
+        .contact-form form textarea {
+            display: block;
+            margin: 1rem auto;
+            width: 96%;
+        }
+
+        .contact-form form .btn-1 {
+            padding: 0.75em 2em;
+            font-size: 18px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        .contact-form form .btn-1:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 1em;
+        }
+
+        .social-links a {
+            color: orangered;
+            font-size: 2em;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: orangered;
+        }
+        .btn-2{
+            padding: 10px;
+            background-color: orangered;
+            color: white;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            transition: 0.3s e;
+            margin-left: 570px; 
+            margin-top: -50px;
+            text-decoration: none;
+        }
+        .btn-2:hover{
+            background-color: white;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <section class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span> </h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="pn" pattern="[6-9]{1}[0-9]{9}" required placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="0" rows="5" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+
+        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+            <img src="link.jpg" alt="linkdin" height="60px" width="60px" style="padding-bottom: 10px; margin-left: 650px; margin-left: 550px;" > 
+        </a>
+        <a href="https://github.com/NishchithaCS/Web_First_Page.github.io">
+            <img src="git.png" alt="github logo"  height="60px" width="60px" style="padding-bottom: 10px; padding-left: 20px;"><br><br><br>  
+            
+    </a>
+    <a href="certificate.html" class="btn-2">Back</a>
+    </section>
+
+    <center>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.9839281486966!2d76.01104687360845!3d13.959562292452425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba5f12b81be463%3A0x2ce8849eea1fbe6!2sGoppenahalli%20Bus%20Stand!5e0!3m2!1sen!2sin!4v1716634793374!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    </center>
+</body>
+</html>
